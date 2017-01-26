@@ -1,0 +1,63 @@
+PODS:
+  - ADTransitionController (1.1.1)
+  - CorePlot (2.0)
+  - EGODatabase (2.0)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit (0.27.0):
+    - RestKit/Core (= 0.27.0)
+  - RestKit/Core (0.27.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.0):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.0):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.0):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SOCKit (1.1)
+  - TransitionKit (2.2.1)
+
+DEPENDENCIES:
+  - ADTransitionController
+  - CorePlot (from `https://github.com/core-plot/core-plot.git`, branch `release-2.0`)
+  - EGODatabase (from `https://github.com/yury-dymov/egodatabase.git`, branch `longlong-fix`)
+  - RestKit
+
+EXTERNAL SOURCES:
+  CorePlot:
+    :branch: release-2.0
+    :git: https://github.com/core-plot/core-plot.git
+  EGODatabase:
+    :branch: longlong-fix
+    :git: https://github.com/yury-dymov/egodatabase.git
+
+CHECKOUT OPTIONS:
+  CorePlot:
+    :commit: c1f585d7cc89dcbdafe1e3966654a6c96f0fae0a
+    :git: https://github.com/core-plot/core-plot.git
+  EGODatabase:
+    :commit: 7008614b8f6b6c82d2ac7ec0340550f2ebf68edf
+    :git: https://github.com/yury-dymov/egodatabase.git
+
+SPEC CHECKSUMS:
+  ADTransitionController: 72299d31488bcbe59fb87c483a89a637ebc819f8
+  CorePlot: 18eb2e5fa6e56d53d0716203620580baba50f67c
+  EGODatabase: b285ec95376a9bc0fc4d273d3645154c078eb393
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  RestKit: a0244db34e14ed9cf059fcee2be6733cc162c34a
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+
+PODFILE CHECKSUM: 7aedc2b802c186099aa144ecb90658aa9cb51edb
+
+COCOAPODS: 1.1.1
