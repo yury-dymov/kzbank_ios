@@ -27,12 +27,15 @@ PODS:
   - TransitionKit (2.2.1)
 
 DEPENDENCIES:
-  - ADTransitionController
+  - ADTransitionController (from `https://github.com/yury-dymov/ADTransitionController.git`, branch `arc-fix`)
   - CorePlot (from `https://github.com/core-plot/core-plot.git`, branch `release-2.0`)
   - EGODatabase (from `https://github.com/yury-dymov/egodatabase.git`, branch `longlong-fix`)
   - RestKit
 
 EXTERNAL SOURCES:
+  ADTransitionController:
+    :branch: arc-fix
+    :git: https://github.com/yury-dymov/ADTransitionController.git
   CorePlot:
     :branch: release-2.0
     :git: https://github.com/core-plot/core-plot.git
@@ -41,6 +44,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/yury-dymov/egodatabase.git
 
 CHECKOUT OPTIONS:
+  ADTransitionController:
+    :commit: b7b555ef0ec4e90dd8f9e666c2e5327f821f76f6
+    :git: https://github.com/yury-dymov/ADTransitionController.git
   CorePlot:
     :commit: c1f585d7cc89dcbdafe1e3966654a6c96f0fae0a
     :git: https://github.com/core-plot/core-plot.git
@@ -49,7 +55,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/yury-dymov/egodatabase.git
 
 SPEC CHECKSUMS:
-  ADTransitionController: 72299d31488bcbe59fb87c483a89a637ebc819f8
+  ADTransitionController: a1de96cc82a1d5db343e20bef539515cfacb6e9f
   CorePlot: 18eb2e5fa6e56d53d0716203620580baba50f67c
   EGODatabase: b285ec95376a9bc0fc4d273d3645154c078eb393
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
@@ -58,6 +64,6 @@ SPEC CHECKSUMS:
   SOCKit: c7376ac262bea9115b8f749358f762522a47d392
   TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
 
-PODFILE CHECKSUM: 7aedc2b802c186099aa144ecb90658aa9cb51edb
+PODFILE CHECKSUM: b8fc9e32d2c0aea46ba0fc6634939cb1b02c82df
 
 COCOAPODS: 1.1.1
